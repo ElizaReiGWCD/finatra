@@ -4,7 +4,7 @@ import sbtunidoc.Plugin.UnidocKeys._
 import scoverage.ScoverageKeys.coverageExcludedPackages
 
 parallelExecution in ThisBuild := false
-fork in ThisBuild := true
+fork in ThisBuild := false
 
 lazy val buildSettings = Seq(
   version := "2.0.2-SNAPSHOT",
